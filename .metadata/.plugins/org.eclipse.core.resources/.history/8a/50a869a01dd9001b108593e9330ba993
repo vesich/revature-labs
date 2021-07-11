@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class ExampleTwo {
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+		String line = scanner.nextLine();
+
+		System.out.println("You have typed: " + line);
+
+		scanner.close();
+
+	}
+}

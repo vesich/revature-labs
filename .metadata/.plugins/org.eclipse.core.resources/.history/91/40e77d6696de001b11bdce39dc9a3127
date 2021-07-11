@@ -1,0 +1,10 @@
+
+public class ExampleOne {
+	public static void main(String[] args) {
+		ExampleOne.wakeUp();
+	}
+
+	public static void wakeUp() {
+		System.out.println("Wake up");
+	}
+}

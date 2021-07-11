@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class ExampleThree {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter your prompt here and press enter");
+
+		String input = scanner.nextLine();
+
+		switch (input) {
+		case "1":
+			System.out.print("Moving Right");
+			break;
+		case "2":
+			System.out.println("Moving Left");
+			break;
+		case "3":
+			System.out.println("Moving Up");
+			break;
+		case "4":
+			System.out.println("Moving Down");
+			break;
+		case "q":
+			scanner.close();
+			break;
+		default:
+			System.out.println("Try again. Accepatable input: [1 - Move right, 2 - Move Left, 3 - Move Up, 4 - Move Down, q - exit program]");
+			break;
+		}
+
+	}
+}

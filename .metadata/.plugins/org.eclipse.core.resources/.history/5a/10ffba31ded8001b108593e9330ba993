@@ -1,0 +1,10 @@
+
+public class MethodDeclaration {
+	public static void main(String[] args) {
+		talk();
+	}
+	
+	public static void talk() {
+		System.out.println("Inside of the talk method");
+	}
+}

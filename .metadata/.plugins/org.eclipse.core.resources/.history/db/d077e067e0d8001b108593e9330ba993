@@ -1,0 +1,16 @@
+
+public class MethodDeclaration {
+	public static void main(String[] args) {
+		MethodDeclaration myInstance = new MethodDeclaration();
+		myInstance.talk();
+		myInstance.getInt(14);
+	}
+	
+	public void talk() {
+		System.out.println("Inside of the talk method");
+	}
+	
+	public int getInt(int input) {
+		return input;
+	}
+}

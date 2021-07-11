@@ -1,0 +1,16 @@
+
+public class ReturnTypes {
+	public static void main(String[] args) {
+		// create a class instance
+		ReturnTypes myInstance = new ReturnTypes();
+		
+		//call your method here
+		myInstance.returnNothing();
+		
+		}
+		//create your first method here
+		public void returnNothing() {
+			System.out.println("inside of a void method");
+		}
+	
+}

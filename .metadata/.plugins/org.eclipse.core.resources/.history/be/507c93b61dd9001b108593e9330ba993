@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ExampleTwo {
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		String line = scanner.nextLine();
+		
+		int vowels = 0;
+		
+		char[] stringChars = line.toCharArray();
+
+		System.out.print("You have typed: " + stringChars[0]);
+
+		scanner.close();
+
+	}
+}
